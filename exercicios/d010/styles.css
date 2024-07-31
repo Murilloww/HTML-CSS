@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom, #6EA36B 5%,#35C020, #3F9632, #2F422C);
+    padding: 0.5em;
+    padding-bottom: 2em;
+    
+}
+header > h2{
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.747);
+    margin: 2em;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+nav > a:hover{
+    border: 5px solid #b5ffb1;
+    background-color: #b5ffb1;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1em;
+    margin-bottom: -1.5em ;
+}
+
+body {
+    margin: 0em;
+    background-color: #b5ffb1;
+    overflow-x: hidden;
+    
+}
+
+main {
+    background-color: white;
+    margin: -1.3em 7em 0em 7em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.582);
+}
+main > picture {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+.h1-main{
+    text-indent: 1em;
+    color: #045800;
+    font-family: 'Idroid';
+}
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    margin: 1em;
+}
+.h2-main{
+    text-indent: 2em;
+    color: #045800;
+    margin: 0em 5em 0em 1em;
+    background-image: linear-gradient(to right, #4aa035be ,#44ca2249, #46753b36 );
+    font-family: 'Idroid';
+}
+abbr {
+    text-decoration: none;
+}
+
+#div-iframe {
+    position: relative; /* padding-bottom: 56.25%;: Esta propriedade define a altura do contêiner em relação à largura, mantendo a proporção 16:9 (altura/largura = 9/16 = 0.5625). Para outras proporções de vídeo, ajuste esse valor. */
+
+    padding-bottom: 56.25%;  /* Proporção 16:9 */
+
+    height: 0; /* Inicializa a altura para zero, pois a altura real é definida pelo padding-bottom. */
+
+    overflow: hidden; /* Garante que o conteúdo fora dos limites do contêiner seja cortado, evitando scroll indesejado. */
+
+    border: 3em solid #374B32;
+    box-sizing: border-box; /* Inclui a borda no cálculo do tamanho total do contêiner */
+}
+
+iframe {
+    position: absolute; 
+    top: 0;
+    left: 0; /* 
+    position: absolute; 
+    top: 0; left: 0;
+    Posiciona o iframe para ocupar todo o espaço do contêiner. */
+
+    width: 100%;
+    height: 100%; /* Faz o iframe preencher completamente o contêiner, mantendo a proporção de aspecto definida pelo contêiner pai.
+    */
+    border: 0; /* Remove qualquer borda interna do iframe */
+    display: block;
+} 
+
+#p-lista-top{
+    background-color: #79b66e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 8px;
+    margin-top: 2em;
+    margin-bottom: 0px;
+}
+.p-lista-mid{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+#div-lista{
+    background-color: #a3cfb9;
+    margin-top: -15.05px;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #374B32;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin: 0px
+}
+footer > p{
+    margin: 0px;
+}
+
+#span-footer{
+    color: rgba(255, 255, 255, 0.5);
+}
