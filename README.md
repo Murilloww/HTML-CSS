@@ -1,2 +1,2 @@
 # HTML-CSS
- Estudos de HTML5 e CSS3
+Learning and practicing HTML & CSS
