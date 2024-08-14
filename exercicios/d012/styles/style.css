@@ -57,6 +57,7 @@ section{
 
 section > p{
     padding-bottom: 2em;
+    padding: 2em;
 }
 
 section.normal{
@@ -88,7 +89,6 @@ section#img02{
     background-image: url(../imagens/background002.jpg);
 
 }
-
 
 footer{
     background-color: black;
