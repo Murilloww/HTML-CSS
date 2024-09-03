@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .destaque{
+            background-color: green;
+        }
+
+        col.cnome{
+            background-color: gray;
+        }
+
+        col.cgrupo{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Maria Ana</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Jornal</td>
+        </tr>
+        <tr>
+            <td>Flavio Fonseca</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>Otavio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Murillo</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Desempregado</td>
+        </tr>
+        
+        
+
+    </table>
+</body>
+</html>
